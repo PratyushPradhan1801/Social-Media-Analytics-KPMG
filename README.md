@@ -55,6 +55,14 @@ The project explores 10 KPI questions, including:
 
 The repository contains the visual outputs generated during the analysis, including platform comparisons, KPI charts, and relationship-based scatter plots.
 
+## 💡 Key Insights
+
+- Facebook recorded the highest total impressions and total engagement among the analysed platforms.
+- YouTube showed the highest average CTR and conversion-per-click in the platform comparison.
+- Image content generated the highest average engagement among the analysed content types.
+- Impressions and engagement showed a positive relationship, while higher reach was generally associated with higher conversions.
+- The dataset required data-quality assessment for duplicate records, missing values, and skewed numeric variables.
+
 ## 🛠️ Tools & Technologies
 
 - Python
