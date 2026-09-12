@@ -81,8 +81,13 @@ They include:
 - Data Analysis
 - Data Visualization
 
-## Project Structure
+## Author
 
+Pratyush Pradhan
+
+BBA @ IIM Bangalore
+
+## Project Structure
 ```text
 Social-Media-Analytics-KPMG/
 ├── data/
@@ -110,10 +115,3 @@ Social-Media-Analytics-KPMG/
 │   └── average_engagement_by_content_type.png
 │
 └── README.md
-
-##   Author
-
-Pratyush Pradhan
-
-BBA @ IIM Bangalore | Business Analytics & Finance
-
