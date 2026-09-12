@@ -5,7 +5,7 @@ import pandas as pd
 try:
     social_df
 except NameError:
-    social_df = pd.read_csv('social media - social_media_10000_outliers_duplicates.csv', encoding='ascii')
+    social_df = pd.read_csv('../data/social media - social_media_10000_outliers_duplicates.csv', encoding='ascii')
 
 numeric_cols = social_df.select_dtypes(include=['number'])
 skewness_series = numeric_cols.skew()
