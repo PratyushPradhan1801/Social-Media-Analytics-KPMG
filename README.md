@@ -86,7 +86,9 @@ They include:
 Pratyush Pradhan
 
 BBA @ IIM Bangalore
-[LinkedIn](https://www.linkedin.com/in/pratyush-pradhan1/) [GitHub](https://github.com/PratyushPradhan1801)
+[LinkedIn](https://www.linkedin.com/in/pratyush-pradhan1/) 
+[GitHub](https://github.com/PratyushPradhan1801) 
+
 *Built as a learning project. All data simulated.*
 
 ## Project Structure
