@@ -110,3 +110,8 @@ Social-Media-Analytics-KPMG/
 │   └── average_engagement_by_content_type.png
 │
 └── README.md
+
+Author
+Pratyush Pradhan . GitHub . LinkedIn
+
+Built as a learning project. All data simulated.
