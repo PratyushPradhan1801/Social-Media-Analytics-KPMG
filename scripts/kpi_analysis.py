@@ -1,11 +1,19 @@
 # Create 10 KPI questions & answers with supporting bar and scatter plots
+
+from pathlib import Path
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-sns.set(style='whitegrid')
+sns.set(style="whitegrid")
 
-# Assume sheet_df may be messy; use social_df (already in memory) for clear KPIs
+DATA_PATH = (
+    Path(__file__).resolve().parent.parent
+    / "data"
+    / "social media - social_media_10000_outliers_duplicates.csv"
+)
+
+social_df = pd.read_csv(DATA_PATH, encoding="ascii")
 
 # Ensure engagement metrics exist
 social_df['engagement'] = social_df['likes'] + social_df['comments'] + social_df['shares']
