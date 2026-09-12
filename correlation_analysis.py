@@ -3,7 +3,7 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-social_df = pd.read_csv('social media - social_media_10000_outliers_duplicates.csv')
+social_df = pd.read_csv('../data/social media - social_media_10000_outliers_duplicates.csv', encoding='ascii')
 
 # Add a few derived metrics
 social_df['engagement'] = social_df['likes'] + social_df['comments'] + social_df['shares']
