@@ -1,9 +1,17 @@
 # Compute and visualize correlation matrix for key numeric variables in the social media dataset
+
+from pathlib import Path
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-social_df = pd.read_csv('../data/social media - social_media_10000_outliers_duplicates.csv', encoding='ascii')
+DATA_PATH = (
+    Path(__file__).resolve().parent.parent
+    / "data"
+    / "social media - social_media_10000_outliers_duplicates.csv"
+)
+
+social_df = pd.read_csv(DATA_PATH, encoding="ascii")
 
 # Add a few derived metrics
 social_df['engagement'] = social_df['likes'] + social_df['comments'] + social_df['shares']
