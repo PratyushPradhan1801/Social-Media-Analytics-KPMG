@@ -86,6 +86,7 @@ They include:
 Pratyush Pradhan
 
 BBA @ IIM Bangalore
+*Built as a learning project. All data simulated.*
 
 ## Project Structure
 ```text
