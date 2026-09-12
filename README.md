@@ -1,0 +1,86 @@
+# Social Media Analytics & Data Quality Assessment
+
+Python-based analysis of an AI-generated social media dataset, covering data quality assessment, statistical analysis, and KPI exploration.
+
+## 🎯 Objective
+
+To analyse social media performance data, identify data-quality issues, examine relationships between key metrics, and explore platform-level KPIs.
+
+## 📊 Dataset
+
+The project uses an AI-generated social media dataset containing post-level performance metrics such as:
+
+- Impressions
+- Reach
+- Likes
+- Comments
+- Shares
+- Clicks
+- Conversions
+- Duration
+- Paid Amount
+- Platform
+- Content Type
+- Promotion Type
+- Post Theme
+- Time Posted
+
+## 🔍 Analysis Performed
+
+### Data Quality Assessment
+- Dataset structure and descriptive statistics
+- Duplicate-row detection
+- Missing and blank-value analysis
+- Skewness analysis of numeric variables
+
+### Statistical Analysis
+- Correlation analysis across key social media metrics
+- Derived engagement metric using likes, comments, and shares
+
+### KPI Analysis
+The project explores 10 KPI questions, including:
+
+- Total impressions by platform
+- Total engagement by platform
+- Average engagement rate by platform
+- Impressions vs. engagement
+- Reach vs. conversions
+- Average CTR by platform
+- Conversion per click by platform
+- Paid amount vs. impressions
+- Duration vs. engagement
+- Average engagement by content type
+
+## 📈 Visualizations
+
+The repository contains the visual outputs generated during the analysis, including platform comparisons, KPI charts, and relationship-based scatter plots.
+
+## 🛠️ Tools & Technologies
+
+- Python
+- Pandas
+- Matplotlib
+- Seaborn
+- Data Analysis
+- Data Visualization
+
+## 📁 Project Structure
+
+```text
+├── data_preprocessing.py
+├── duplicate_detection.py
+├── missing_value_analysis.py
+├── correlation_analysis.py
+├── skewness_analysis.py
+├── kpi_analysis.py
+├── duplicate_rows_screenshot.png
+├── total_impressions_by_platform.png
+├── total_engagement_by_platform.png
+├── average_engagement_rate_by_platform.png
+├── impressions_vs_engagement.png
+├── reach_vs_conversions.png
+├── average_ctr_by_platform.png
+├── average_conversion_per_click_by_platform.png
+├── paid_amount_vs_impressions.png
+├── duration_vs_engagement.png
+└── average_engagement_by_content_type.png
