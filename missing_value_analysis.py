@@ -4,8 +4,8 @@ import pandas as pd
 # Ensure social_df exists
 try:
     social_df
-except NameError:
-    social_df = pd.read_csv('social media - social_media_10000_outliers_duplicates.csv', encoding='ascii')
+except NameError: 
+    pd.read_csv('../data/social media - social_media_10000_outliers_duplicates.csv', encoding='ascii')
 
 # Treat NaN and empty strings as blanks
 blank_counts = social_df.isna().sum()
