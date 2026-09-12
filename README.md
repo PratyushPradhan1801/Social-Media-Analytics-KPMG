@@ -111,7 +111,9 @@ Social-Media-Analytics-KPMG/
 │
 └── README.md
 
-Author
-Pratyush Pradhan . GitHub . LinkedIn
+##   Author
 
-Built as a learning project. All data simulated.
+Pratyush Pradhan
+
+BBA @ IIM Bangalore | Business Analytics & Finance
+
