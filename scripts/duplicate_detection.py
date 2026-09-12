@@ -3,11 +3,18 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from matplotlib import colors
 
-# Assume social_df is already loaded in memory; if not, load it
+from pathlib import Path
+
+DATA_PATH = (
+    Path(__file__).resolve().parent.parent
+    / "data"
+    / "social media - social_media_10000_outliers_duplicates.csv"
+)
+
 try:
     social_df
-except NameError: 
-    pd.read_csv('../data/social media - social_media_10000_outliers_duplicates.csv', encoding='ascii')
+except NameError:
+    social_df = pd.read_csv(DATA_PATH, encoding="ascii")
 
 # Find duplicates based on all columns
 duplicates_mask = social_df.duplicated(keep=False)
