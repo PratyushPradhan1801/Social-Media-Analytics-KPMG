@@ -53,7 +53,16 @@ The project explores 10 KPI questions, including:
 
 ## Visualizations
 
-The repository contains the visual outputs generated during the analysis, including platform comparisons, KPI charts, and relationship-based scatter plots.
+The analysis outputs are available in the [`outputs/`](./outputs) folder.
+
+They include:
+
+- Platform-level performance comparisons
+- Engagement and conversion analysis
+- CTR and conversion-per-click comparisons
+- Relationship-based scatter plots
+- Content-type performance analysis
+- Duplicate-record visualization
 
 ## Key Insights
 
