@@ -2,11 +2,11 @@
 
 Python-based analysis of an AI-generated social media dataset, covering data quality assessment, statistical analysis, and KPI exploration.
 
-## 🎯 Objective
+## Objective
 
 To analyse social media performance data, identify data-quality issues, examine relationships between key metrics, and explore platform-level KPIs.
 
-## 📊 Dataset
+## Dataset
 
 The project uses an AI-generated social media dataset containing post-level performance metrics such as:
 
@@ -25,7 +25,7 @@ The project uses an AI-generated social media dataset containing post-level perf
 - Post Theme
 - Time Posted
 
-## 🔍 Analysis Performed
+## Analysis Performed
 
 ### Data Quality Assessment
 - Dataset structure and descriptive statistics
@@ -51,11 +51,11 @@ The project explores 10 KPI questions, including:
 - Duration vs. engagement
 - Average engagement by content type
 
-## 📈 Visualizations
+## Visualizations
 
 The repository contains the visual outputs generated during the analysis, including platform comparisons, KPI charts, and relationship-based scatter plots.
 
-## 💡 Key Insights
+## Key Insights
 
 - Facebook recorded the highest total impressions and total engagement among the analysed platforms.
 - YouTube showed the highest average CTR and conversion-per-click in the platform comparison.
@@ -63,7 +63,7 @@ The repository contains the visual outputs generated during the analysis, includ
 - Impressions and engagement showed a positive relationship, while higher reach was generally associated with higher conversions.
 - The dataset required data-quality assessment for duplicate records, missing values, and skewed numeric variables.
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 
 - Python
 - Pandas
@@ -72,23 +72,32 @@ The repository contains the visual outputs generated during the analysis, includ
 - Data Analysis
 - Data Visualization
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
-├── data_preprocessing.py
-├── duplicate_detection.py
-├── missing_value_analysis.py
-├── correlation_analysis.py
-├── skewness_analysis.py
-├── kpi_analysis.py
-├── duplicate_rows_screenshot.png
-├── total_impressions_by_platform.png
-├── total_engagement_by_platform.png
-├── average_engagement_rate_by_platform.png
-├── impressions_vs_engagement.png
-├── reach_vs_conversions.png
-├── average_ctr_by_platform.png
-├── average_conversion_per_click_by_platform.png
-├── paid_amount_vs_impressions.png
-├── duration_vs_engagement.png
-└── average_engagement_by_content_type.png
+Social-Media-Analytics-KPMG/
+├── data/
+│   └── social media - social_media_10000_outliers_duplicates.csv
+│
+├── scripts/
+│   ├── correlation_analysis.py
+│   ├── data_preprocessing.py
+│   ├── duplicate_detection.py
+│   ├── kpi_analysis.py
+│   ├── missing_value_analysis.py
+│   └── skewness_analysis.py
+│
+├── outputs/
+│   ├── duplicate_rows_screenshot.png
+│   ├── total_impressions_by_platform.png
+│   ├── total_engagement_by_platform.png
+│   ├── average_engagement_rate_by_platform.png
+│   ├── impressions_vs_engagement.png
+│   ├── reach_vs_conversions.png
+│   ├── average_ctr_by_platform.png
+│   ├── average_conversion_per_click_by_platform.png
+│   ├── paid_amount_vs_impressions.png
+│   ├── duration_vs_engagement.png
+│   └── average_engagement_by_content_type.png
+│
+└── README.md
